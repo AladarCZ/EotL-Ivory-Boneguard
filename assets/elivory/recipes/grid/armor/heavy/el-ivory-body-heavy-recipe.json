@@ -1,0 +1,175 @@
+[
+	{
+		ingredientPattern: "AB_,DEF,G_I",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-steel", quantity: 3
+			},
+			"B": { type: "item", code: "el-ivory-schematic", returnedStack: { "type": "item", "code": "el-ivory-schematic" }
+			},
+			"D": { type: "item", code: "game:metalplate-steel", quantity: 3
+			},
+			"E": { type: "item", code: "game:armor-body-plate-steel"
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 12
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:hide-pelt-huge", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "ivory steel plate body",
+		output: { type: "item", code: "el-ivory-body-steel-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "AB_,DEF,G_I",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-meteoriciron", quantity: 3
+			},
+			"B": { type: "item", code: "el-ivory-schematic", returnedStack: { "type": "item", "code": "el-ivory-schematic" }
+			},
+			"D": { type: "item", code: "game:metalplate-meteoriciron", quantity: 3
+			},
+			"E": { type: "item", code: "game:armor-body-plate-meteoriciron"
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 12
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:hide-pelt-huge", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "ivory meteoriciron plate body",
+		output: { type: "item", code: "el-ivory-body-meteoriciron-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "AB_,DEF,G_I",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-iron", quantity: 3
+			},
+			"B": { type: "item", code: "el-ivory-schematic", returnedStack: { "type": "item", "code": "el-ivory-schematic" }
+			},
+			"D": { type: "item", code: "game:metalplate-iron", quantity: 3
+			},
+			"E": { type: "item", code: "game:armor-body-plate-iron"
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 12
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:hide-pelt-huge", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "ivory iron plate body",
+		output: { type: "item", code: "el-ivory-body-iron-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "A_A,BEB,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 4
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
+			},
+			"E": { type: "item", code: "el-ivory-body-*-heavy-none",
+					name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "ivory body color",
+		output: { type: "item", code: "el-ivory-body-{metal}-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "el-ivory-body-steel-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "ivory steel plate head deplume",
+		output: { type: "item", code: "el-ivory-body-steel-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "el-ivory-body-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "ivory meteoriciron plate deplume",
+		output: { type: "item", code: "el-ivory-body-meteoriciron-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "el-ivory-body-iron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "ivory steel plate sallet deplume",
+		output: { type: "item", code: "el-ivory-body-iron-heavy-none"
+		}
+	}
+]
