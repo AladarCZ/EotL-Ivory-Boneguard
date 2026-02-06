@@ -1,0 +1,126 @@
+[
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-body",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "el-stoneforge-body-steel-heavy-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.2,
+              "steadyAim": -0.3,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+
+          "el-stoneforge-body-steel-heavy-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": -0.2,
+              "steadyAim": -0.3,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+
+          "el-stoneforge-body-*iron-heavy-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.2,
+              "steadyAim": -0.3,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+
+          "el-stoneforge-body-*iron-heavy-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": -0.2,
+              "steadyAim": -0.3,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-body",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+        "*steel*heavy*": 33000,
+        "*meteoric*heavy*": 25200,
+        "*-iron*heavy*": 13200
+    }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-body-*": 16 }
+  },  
+
+]

@@ -1,0 +1,129 @@
+{
+	"code": "el-stoneforge-legs",
+	"class": "ItemWearable",
+	"heldTpIdleAnimation": "holdunderarm",
+	"variantgroups": [
+		{ "code": "metallegs", "states": ["iron", "meteoriciron", "steel"] },
+		{ "code": "version", "states": ["heavy"] },
+		{ "code": "line", "states": ["red", "green", "black", "blue", "brown", "white", "purple", "pink", "orange", "yellow", "gray", "plain", "none", "bear-black", "bear-brown", "bear-polar"] }
+	],
+	"skipVariants": ["*bear*"],
+	"allowedVariants": ["*"],
+	"shapeByType": {
+		"*bear*": { "base": "entity/armor/stoneforge/{version}/stoneforgeheavybearlegs" },
+		"*": { "base": "entity/armor/stoneforge/{version}/stoneforgeheavylegs" }
+	},
+	"texturesByType": {
+		"*bear*": {
+			"seraph": { "base": "game:block/transparent" },
+			"stoneforgelegs": { "base": "armor/entity/stoneforge_{version}{metallegs}" },
+			"line": { "base": "game:entity/humanoid/serapharmor/hide/bear/{line}" }
+		},
+		"*": {
+			"seraph": { "base": "game:block/transparent" },
+			"stoneforgelegs": { "base": "armor/entity/stoneforge_{version}{metallegs}" },
+			"line": { "base": "block/lines/line{line}" }
+		}
+	},
+	"storageFlags": 128,
+	"maxstacksize": 4,
+	"attributes": {
+		"handbook": {
+			"groupBy": ["*{metallegs}-{version}*"]
+		},
+		"visibleDamageEffect": true,
+		"wearableAttachment": true,
+		"clothescategoryByType": {
+			"*": "armorlegs"
+		},
+		"warmthByType": {
+			"*-bear-black": 1.5,
+			"*-bear-brown": 1.5,
+			"*-bear-polar": 2,
+			"*": 1
+		},
+		"defaultProtLoss": {
+			"perTierRelativeProtectionLoss": [0.03, 0.15],
+			"perTierFlatDamageReductionLoss": [0.1, 0.2]
+		},
+		"protectionModifiersByType": {
+			"*steel*heavy*": {
+				"relativeProtection": 0.97,
+				"flatDamageReduction": 3,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			},
+			"*meteoric*heavy*": {
+				"relativeProtection": 0.965,
+				"flatDamageReduction": 2.9,
+				"highDamageTierResistant": true,
+				"protectionTier": 3
+			},
+			"*iron*heavy*": {
+				"relativeProtection": 0.96,
+				"flatDamageReduction": 2.85,
+				"highDamageTierResistant": true,
+				"protectionTier": 3
+			}
+		},
+		"statModifiersByType": {
+			"*heavy*bear*": {
+				"rangedWeaponsAcc": -0.3,
+				"rangedWeaponsSpeed": -0.35,
+				"walkSpeed": -0.13,
+				"healingeffectivness": -0.2,
+				"hungerrate": 0.2
+			},
+			"*heavy*": {
+				"rangedWeaponsAcc": -0.3,
+				"rangedWeaponsSpeed": -0.35,
+				"walkSpeed": -0.11,
+				"healingeffectivness": -0.2,
+				"hungerrate": 0.2
+			}
+		}
+	},
+	"creativeinventory": {
+		"general": ["*"],
+		"items": ["*"],
+		"echoesofthelensstoneforge": ["*"]
+	},
+	"renderAlphaTest": 0.25,
+	"durabilityByType": {
+		"*-iron*heavy*": 3500,
+		"*meteoric*heavy*": 5500,
+		"*steel*heavy*": 8000
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
+			"rotation": { "x": 163, "y": -111, "z": -180 },
+			"origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+			"scale": 2.15
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.6, "z": -0.4 },
+			"rotation": { "x": 95, "y": -20, "z": -91 },
+			"origin": { "x": 0.5, "y": 0.7, "z": 0.5 },
+			"scale": 0.74
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 1, "y": 0, "z": 0 },
+			"rotation": { "x": -26, "y": -46, "z": -180 },
+			"origin": { "x": 0.5, "y": 0.6, "z": 0.5 },
+			"scale": 1.25
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 90 },
+			"origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
+			"scale": 3.1
+		}
+	}
+}

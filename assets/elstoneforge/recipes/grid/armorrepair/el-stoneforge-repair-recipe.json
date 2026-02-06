@@ -1,0 +1,344 @@
+[
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-head-steel-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge steel plate heavy repair",
+		output: { type: "item", code: "el-stoneforge-head-steel-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-head-meteoriciron-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge meteoric iron plate heavy repair",
+		output: { type: "item", code: "el-stoneforge-head-meteoriciron-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-head-iron-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge iron plate heavy repair",
+		output: { type: "item", code: "el-stoneforge-head-iron-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-body-steel-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge steel plate body repair",
+		output: { type: "item", code: "el-stoneforge-body-steel-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-body-meteoriciron-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge meteoric iron plate body repair",
+		output: { type: "item", code: "el-stoneforge-body-meteoriciron-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-body-iron-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge iron plate body repair",
+		output: { type: "item", code: "el-stoneforge-body-iron-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-legs-steel-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge steel plate legs repair",
+		output: { type: "item", code: "el-stoneforge-legs-steel-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-legs-meteoriciron-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge meteoric iron plate legs repair",
+		output: { type: "item", code: "el-stoneforge-legs-meteoriciron-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "el-stoneforge-legs-iron-heavy-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "stoneforge iron plate legs repair",
+		output: { type: "item", code: "el-stoneforge-legs-iron-heavy-{color}"
+		}
+	} 
+]

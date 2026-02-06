@@ -1,0 +1,123 @@
+[
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-head",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "el-stoneforge-head-steel-heavy-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.1,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "el-stoneforge-head-steel-heavy*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.1,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "el-stoneforge-head-*iron-heavy-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.1,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          },
+          "el-stoneforge-head-*iron-heavy*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.1,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.12
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-head",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+        "*steel*heavy*": 15000,
+        "*meteoriciron*heavy*": 11000,
+        "*-iron*heavy*": 7400
+    }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-head",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-head",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-head",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-head",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-head-*": 8 }
+  },  
+
+]

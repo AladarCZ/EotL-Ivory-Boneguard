@@ -1,0 +1,175 @@
+[
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-steel"
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-steel"
+			},
+			"C": { type: "item", code: "game:metalplate-steel"
+			},
+			"D": { type: "item", code: "el-stoneforge-schematic", returnedStack: { "type": "item", "code": "el-stoneforge-schematic" }
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:hide-pelt-large", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "stoneforge steel plate legs",
+		output: { type: "item", code: "el-stoneforge-legs-steel-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-meteoriciron"
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-meteoriciron"
+			},
+			"C": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"D": { type: "item", code: "el-stoneforge-schematic", returnedStack: { "type": "item", "code": "el-stoneforge-schematic" }
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:hide-pelt-large", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "stoneforge meteoriciron plate legs",
+		output: { type: "item", code: "el-stoneforge-legs-meteoriciron-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-iron"
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-iron"
+			},
+			"C": { type: "item", code: "game:metalplate-iron"
+			},
+			"D": { type: "item", code: "el-stoneforge-schematic", returnedStack: { "type": "item", "code": "el-stoneforge-schematic" }
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:hide-pelt-large", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "stoneforge iron plate legs",
+		output: { type: "item", code: "el-stoneforge-legs-iron-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "BEB,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 3
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 3
+			},
+			"E": { type: "item", code: "el-stoneforge-legs-*-heavy-none",
+					name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "stoneforge legs color",
+		output: { type: "item", code: "el-stoneforge-legs-{metal}-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "el-stoneforge-legs-steel-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "stoneforge steel plate armet deplume",
+		output: { type: "item", code: "el-stoneforge-legs-steel-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "el-stoneforge-legs-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "stoneforge meteoriciron plate armet deplume",
+		output: { type: "item", code: "el-stoneforge-legs-meteoriciron-heavy-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "el-stoneforge-legs-iron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "stoneforge meteoriciron plate armet deplume",
+		output: { type: "item", code: "el-stoneforge-legs-iron-heavy-none"
+		}
+	}
+]

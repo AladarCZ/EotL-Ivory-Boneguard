@@ -1,0 +1,123 @@
+[
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-legs",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "el-stoneforge-legs-steel-heavy-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.19,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          },
+          "el-stoneforge-legs-steel-heavy*": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.17,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          },
+          "el-stoneforge-legs-*iron-heavy-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.19,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          },
+          "el-stoneforge-legs-*iron-heavy*": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.17,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-legs",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+        "*steel*heavy*": 23000,
+        "*meteoric*heavy*": 18200,
+        "*-iron*heavy*": 13200
+    }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-legs-*": 8 }
+  },  
+
+]
